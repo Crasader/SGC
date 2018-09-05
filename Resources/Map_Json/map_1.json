@@ -1,0 +1,90 @@
+{
+"BattlePoints":[
+{
+	"BattlePoint":
+	{		
+		"point_name":"point_0",
+		"point_ID":0,
+		"position_x":50,
+		"position_y":500,
+		"next_points":[{"point_ID":1},{"point_ID":2}],
+		"weather_type":4,
+		"enemies":[{"enemy_type":1,"enemy_atk":100,"enemy_sp":20,"enemy_hp":800},{"enemy_type":2,"enemy_atk":300,"enemy_sp":30,"enemy_hp":1000},
+		{"enemy_type":3,"enemy_atk":200,"enemy_sp":50,"enemy_hp":1000},{"enemy_type":4,"enemy_atk":80,"enemy_sp":10,"enemy_hp":800},
+		{"enemy_type":5,"enemy_atk":80,"enemy_sp":8,"enemy_hp":1000}]
+	}
+},
+{
+	"BattlePoint":
+	{		
+		"point_name":"point_1",
+		"point_ID":1,
+		"position_x":200,
+		"position_y":700,
+		"next_points":[{"point_ID":3}],
+		"weather_type":4,
+		"enemies":[{"enemy_type":1,"enemy_atk":100,"enemy_sp":20,"enemy_hp":1000},{"enemy_type":2,"enemy_atk":300,"enemy_sp":30,"enemy_hp":1000}]
+	}
+},
+{
+	"BattlePoint":
+	{		
+		"point_name":"point_2",
+		"point_ID":2,
+		"position_x":200,
+		"position_y":300,
+		"next_points":[{"point_ID":3}],
+		"weather_type":2,
+		"enemies":[{"enemy_type":1,"enemy_atk":100,"enemy_sp":20,"enemy_hp":1000},{"enemy_type":2,"enemy_atk":300,"enemy_sp":30,"enemy_hp":1000}]
+	}
+},
+{
+	"BattlePoint":
+	{		
+		"point_name":"point_3",
+		"point_ID":3,
+		"position_x":350,
+		"position_y":500,
+		"next_points":[{"point_ID":4},{"point_ID":5}],
+		"weather_type":3,
+		"enemies":[{"enemy_type":1,"enemy_atk":100,"enemy_sp":20,"enemy_hp":1000},{"enemy_type":2,"enemy_atk":300,"enemy_sp":30,"enemy_hp":1000}]
+	}
+},
+{
+	"BattlePoint":
+	{		
+		"point_name":"point_4",
+		"point_ID":4,
+		"position_x":500,
+		"position_y":700,
+		"next_points":[{"point_ID":6}],
+		"weather_type":4,
+		"enemies":[{"enemy_type":1,"enemy_atk":100,"enemy_sp":20,"enemy_hp":1000},{"enemy_type":2,"enemy_atk":300,"enemy_sp":30,"enemy_hp":1000}]
+	}
+},
+{
+	"BattlePoint":
+	{		
+		"point_name":"point_5",
+		"point_ID":5,
+		"position_x":500,
+		"position_y":300,
+		"next_points":[{"point_ID":6}],
+		"weather_type":1,
+		"enemies":[{"enemy_type":1,"enemy_atk":100,"enemy_sp":20,"enemy_hp":1000},{"enemy_type":2,"enemy_atk":300,"enemy_sp":30,"enemy_hp":1000}]
+	}
+},
+{
+	"BattlePoint":
+	{		
+		"point_name":"point_6",
+		"point_ID":6,
+		"position_x":650,
+		"position_y":500,
+		"next_points":[],
+		"weather_type":2,
+		"enemies":[{"enemy_type":1,"enemy_atk":100,"enemy_sp":20,"enemy_hp":1000},{"enemy_type":2,"enemy_atk":300,"enemy_sp":30,"enemy_hp":1000}]
+	}
+}
+]
+}

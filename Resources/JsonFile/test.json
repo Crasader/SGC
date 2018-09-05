@@ -1,0 +1,30 @@
+{
+"swordBuilders":[
+{
+	"swordBuilder":
+	{
+	"sword_name":"ganjiang",
+		"thresholds":{"stone_thre":100,"iron_thre":100,"jade_thre":100,"soul_thre":100},
+		"weight":{"stone_weight":0.5,"iron_weight":0.5,"jade_weight":0.5,"soul_weight":0.5},
+		"rarity":0.5,
+		"infl_items":[{"item_name":"aa","infl_weight":0.1},{"item_name":"bb","infl_weight":0.2}],
+		"blueprint":{"blueprint_name":"ganjiang","infl_weight":1.0},
+		"rate_max":0.3,
+		"succeed":0.5
+	}
+	},
+	{
+	"swordBuilder":
+	{
+		"sword_name":"moye",
+		"thresholds":{"stone_thre":200,"iron_thre":200,"jade_thre":200,"soul_thre":200},
+		"weight":{"stone_weight":0.4,"iron_weight":0.4,"jade_weight":0.4,"soul_weight":0.4},
+		"rarity":0.5,
+		"infl_items":[{"item_name":"aa","infl_weight":0.0},{"item_name":"bb","infl_weight":0.5}],
+		"blueprint":{"blueprint_name":"ganjiang","infl_weight":1.0},
+		"rate_max":0.3,
+		"succeed":0.5
+	}
+	}
+]
+}

@@ -1,0 +1,47 @@
+{
+"Items":[
+	{
+		"Item":
+		{
+			"Item_ID":1,
+			"Item_Name":"weapon1",
+			"Item_Types":[{"Type_ID":1},{"Type_ID":2}],
+			"Item_Rarity":100,
+			"Item_Propeties":
+				[
+				{"Propety_Type":1,
+				"Propety_Influence":[{"Influence_Type":1,"Influence_Value":10},{"Influence_Type":2,"Influence_Value":20}],
+				"Propety_PotentialCost":30,"Propety_Type":2,"Propety_Value":10},
+						{"Propety_Type":1,
+				"Propety_Influence":[{"Influence_Type":3,"Influence_Value":30},{"Influence_Type":4,"Influence_Value":30}],
+				"Propety_PotentialCost":30,"Propety_Type":2,"Propety_Value":10}
+				],
+			"Item_Potential":40,
+			"Item_Effect":{"Effect_Type":1,"Effect_Value":100},
+			"Item_Quality":4
+		}
+	},
+	{
+		"Item":
+		{
+			"Item_ID":2,
+			"Item_Name":"weapon2",
+			"Item_Types":[{"Type_ID":3},{"Type_ID":4}],
+			"Item_Rarity":200,
+			"Item_Propeties":
+				[
+				{"Propety_Type":1,
+				"Propety_Influence":[{"Influence_Type":1,"Influence_Value":10},{"Influence_Type":2,"Influence_Value":20}],
+				"Propety_PotentialCost":30,"Propety_Type":2,"Propety_Value":10},
+						{"Propety_Type":1,
+				"Propety_Influence":[{"Influence_Type":3,"Influence_Value":30},{"Influence_Type":4,"Influence_Value":30}],
+				"Propety_PotentialCost":30,"Propety_Type":2,"Propety_Value":10}
+				],
+			"Item_Potential":40,
+			"Item_Effect":{"Effect_Type":1,"Effect_Value":100},
+			"Item_Quality":4
+			}
+		}
+
+]
+}
