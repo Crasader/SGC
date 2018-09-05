@@ -1,0 +1,2 @@
+#Sword-Gals-Collection
+# SGC
